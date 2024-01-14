@@ -17,3 +17,22 @@ This process typically involves several stages:
 <p align="center">
     <img width="75%" src="how-is-javascript-executed.png">
 </p>
+
+## JavaScript Runtime Environment
+
+A runtime environment is where your program will be executed. It determines what global objects your program can access and it can also impact how it runs.
+
+
+### A Browser’s Runtime Environment
+
+- JavaScript code could only be executed <b>in a browser</b> and was used exclusively for creating *front-end applications*.
+
+### The Node Runtime Environment
+
+- The Node runtime environment was created for the purpose of executing JavaScript code <b>without a browser</b>.
+- Node is an entirely different runtime environment, meaning that browser-environment data values and functions can’t be used.
+
+
+<p align="center">
+    <img width="75%"src="javascript-run-environments.png">
+</p>
