@@ -12,3 +12,8 @@ This process typically involves several stages:
 
 - <b>Execution</b>: The engine executes the machine code, performing the actions specified by the JavaScript code, such as manipulating the Document Object Model (DOM), handling user input, and making network requests.
 
+<br>
+
+<p align="center">
+    <img width="75%" src="how-is-javascript-executed.png">
+</p>
