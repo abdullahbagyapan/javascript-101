@@ -36,3 +36,17 @@ A runtime environment is where your program will be executed. It determines what
 <p align="center">
     <img width="75%"src="javascript-run-environments.png">
 </p>
+
+
+## Javascript Engine
+
+A JavaScript engine is a software component that <b>interprets and executes</b> JavaScript code.
+<br>
+List of JavaScript Engines:
+
+|Browser|Name of Javascript Engine|
+|:-:|:-:|
+|Google Chrome|V8|
+|Mozilla Firefox|Spider Monkey|
+|Edge (Internet Explorer)|Chakra|
+|Safari|Javascript Core Webkit|
