@@ -1,6 +1,6 @@
 # How Javascript Run ?
 
-- JavaScript code is executed in the context of a web browser or a JavaScript runtime environment.
+- JavaScript code is executed in <b>*[JavaScript runtime environment](#javascript-runtime-environment)*</b>.
 
 - When a user visits a web page that contains JavaScript code, the web browser's <b>*[JavaScript engine](#javascript-engine)*</b> reads, interprets, and executes the code.
 
