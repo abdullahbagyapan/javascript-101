@@ -23,5 +23,5 @@ In November 1996, Netscape submitted JavaScript to <b>*Ecma International*</b>, 
 <br>
 
 <p align="center">
-    <img width="70%" src="history-of-javascript.png">
+    <img width="70%" src="images/history-of-javascript.png">
 </p>
