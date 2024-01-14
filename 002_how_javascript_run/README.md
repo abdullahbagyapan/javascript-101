@@ -15,7 +15,7 @@ This process typically involves several stages:
 <br>
 
 <p align="center">
-    <img width="75%" src="how-is-javascript-executed.png">
+    <img width="75%" src="images/how-is-javascript-executed.png">
 </p>
 
 ## JavaScript Runtime Environment
@@ -34,7 +34,7 @@ A runtime environment is where your program will be executed. It determines what
 
 
 <p align="center">
-    <img width="75%"src="javascript-run-environments.png">
+    <img width="75%"src="images/javascript-run-environments.png">
 </p>
 
 
@@ -61,7 +61,7 @@ The process that involves the translation of JavaScript code into machine code o
 In compilation, the entire source code is converted into machine code at once and written into a binary file to be executed by the computer.
 
 <p align="center">
-    <img width="75%" src="compilation.jpeg">
+    <img width="75%" src="images/compilation.jpeg">
 </p>
 
 
@@ -70,7 +70,7 @@ In compilation, the entire source code is converted into machine code at once an
 In during interpretation, the interpreter goes through the source code and interprets it line by line, executing each line as it encounters it.
 
 <p align="center">
-    <img width="75%" src="interpretation.jpeg">
+    <img width="75%" src="images/interpretation.jpeg">
 </p>
 
 
@@ -81,7 +81,7 @@ In during interpretation, the interpreter goes through the source code and inter
 - Just-in-Time compilation involves the same two processes as regular compilation, but here the machine code isn’t written into a binary file.
 
 <p align="center">
-    <img width="75%" src="jit-compilation.jpeg">
+    <img width="75%" src="images/jit-compilation.jpeg">
 </p>
 
 ### Why Not Just Compile It to Machine Code ?
