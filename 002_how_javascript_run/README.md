@@ -50,3 +50,84 @@ List of JavaScript Engines:
 |Mozilla Firefox|Spider Monkey|
 |Edge (Internet Explorer)|Chakra|
 |Safari|Javascript Core Webkit|
+
+## JIT (Just In Time) Compilation
+
+The process that involves the translation of JavaScript code into machine code occurs using compilation and interpretation.
+
+
+### Compilation
+
+In compilation, the entire source code is converted into machine code at once and written into a binary file to be executed by the computer.
+
+<p align="center">
+    <img width="75%" src="compilation.jpeg">
+</p>
+
+
+### Interpretation
+
+In during interpretation, the interpreter goes through the source code and interprets it line by line, executing each line as it encounters it.
+
+<p align="center">
+    <img width="75%" src="interpretation.jpeg">
+</p>
+
+
+### JIT
+
+- JavaScript combines both compilation and interpretation. This is called <b>Just-in-Time compilation</b>.
+- This method compiles the entire code into machine code all at once and executes it. 
+- Just-in-Time compilation involves the same two processes as regular compilation, but here the machine code isn’t written into a binary file.
+
+<p align="center">
+    <img width="75%" src="jit-compilation.jpeg">
+</p>
+
+### Why Not Just Compile It to Machine Code ?
+
+Most of high level languages implement interpreters that use JIT compilation to have <b>*dynamic*</b> and <b>*loose typing*</b>.
+
+```python
+name = input("what is your name?")
+print(name)
+```
+Reason this could not be compiled because of the size of '*name*' is not known at compile time.
+
+- Whole purpose is JIT is to compile an execute things at the very last moment.
+
+### Magic of JIT
+
+A system implementing a JIT compiler typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or <b>recompilation</b> would outweigh the overhead of compiling that code.
+
+```javascript
+function add(a,b) {
+        return a+b;
+}
+
+
+a = 0;
+for (var i = 0; i < 10000000; i++) {
+        a += add(2,5);
+}
+```
+
+#### Without JIT
+
+```sh
+time node --jitless test.js
+
+real    0m1.254s
+user    0m1.220s
+sys     0m0.037s
+```
+
+#### With JIT
+
+```sh
+time node test.js
+
+real    0m0.232s
+user    0m0.211s
+sys     0m0.024s
+```
