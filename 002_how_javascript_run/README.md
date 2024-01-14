@@ -94,7 +94,6 @@ print(name)
 ```
 Reason this could not be compiled because of the size of '*name*' is not known at compile time.
 
-- Whole purpose is JIT is to compile an execute things at the very last moment.
 
 ### Magic of JIT
 
