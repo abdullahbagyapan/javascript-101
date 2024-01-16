@@ -10,3 +10,4 @@ This repo has created to hold a progress record to my javascript learning journe
 | 003 | Variables               | [README.md](003_variables/README.md)              |
 | 004 | Data Types              | [README.md](004_data_types/README.md)             |
 | 005 | Functions               | [README.md](005_functions/README.md)              |
+| 006 | Objects                 | [README.md](006_objects/README.md)              |
