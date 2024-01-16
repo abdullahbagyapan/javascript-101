@@ -1,3 +1,11 @@
+const Calculator = {
+    Add:add,
+    Subtract:subtract,
+    Divide:divide,
+    Multiply:multiply
+}
+
+
 function add(x,y) {
     return x + y;
 }
