@@ -8,3 +8,4 @@ This repo has created to hold a progress record to my javascript learning journe
 | 001 | History of Javascript   | [README.md](/001_history_of_javascript/README.md) |
 | 002 | How is Javascript run ? | [README.md](002_how_javascript_run/README.md)     |
 | 003 | Variables               | [README.md](003_variables/README.md)              |
+| 004 | Data Types              | [README.md](004_data_types/README.md)              |
